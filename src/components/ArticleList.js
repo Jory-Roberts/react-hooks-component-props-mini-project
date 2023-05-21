@@ -1,10 +1,11 @@
 import React from 'react';
+import Article from './Article';
 
-const ArticleList = ({ post }) => {
+const ArticleList = ({ posts }) => {
     return (
         <div>
-            {/* <main>
-                {post.map((post) => {
+            <main>
+                {posts.map((post) => {
                     return (
                         <Article
                             key={post.id}
@@ -13,7 +14,7 @@ const ArticleList = ({ post }) => {
                         ></Article>
                     );
                 })}
-            </main> */}
+            </main>
         </div>
     );
 };

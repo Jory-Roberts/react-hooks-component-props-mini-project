@@ -13,7 +13,7 @@ function App() {
             out in the browser as you write your code; and good luck! */}
             <Header name={blogData.name} />
             <About image={blogData.image} about={blogData.about} />
-            <ArticleList date={blogData.date} />
+            <ArticleList posts={blogData.posts} />
         </div>
     );
 }
